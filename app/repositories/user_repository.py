@@ -1,5 +1,5 @@
 from app.models.user import User
-from app.models.user import db
+from app.models import db
 
 class UserRepository:
     @staticmethod

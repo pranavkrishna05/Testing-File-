@@ -1,1 +1,3 @@
-ZnJvbSBmbGFza19zcWxhY2hlbXkgaW1wb3J0IFNRTEFsY2hlbXkKCmRiID0gU1FMQWxjaGVteSgpCg==
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
