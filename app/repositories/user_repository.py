@@ -7,6 +7,6 @@ class UserRepository:
         return User.query.get(user_id)
 
     @staticmethod
-    def add_user(user: User) -> None:
+    def add_user(user: User) -> None
         db.session.add(user)
         db.session.commit()
